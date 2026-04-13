@@ -6,9 +6,7 @@ The goal is simple: keep the real work on the development machine that already h
 
 ## Showcase
 
-<a href="docs/assets/showcase.mp4">
-  <img src="docs/assets/showcase-poster.jpg" alt="Anywhere iOS app running a T3 Code task from a phone" width="260">
-</a>
+<img src="docs/assets/showcase.gif" alt="Anywhere iOS app running a T3 Code task from a phone" width="260">
 
 Watch a 30-second walkthrough of starting a T3 Code task from the phone and following the turn in Anywhere.
 
