@@ -4,6 +4,14 @@ Anywhere is a local-first, open source companion for running T3 Code from your p
 
 The goal is simple: keep the real work on the development machine that already has your repos, SDKs, simulators, devices, and T3 Code setup, while turning the phone into a clean control surface for dispatching work, following progress, and reviewing results.
 
+## Showcase
+
+<a href="docs/assets/showcase.mp4">
+  <img src="docs/assets/showcase-poster.jpg" alt="Anywhere iOS app running a T3 Code task from a phone" width="260">
+</a>
+
+Watch a 30-second walkthrough of starting a T3 Code task from the phone and following the turn in Anywhere.
+
 ## Status
 
 Anywhere is early and moving fast. The current repo includes a working local daemon, a native macOS Bridge app, and a SwiftUI iOS client. It can pair a phone with the desktop bridge, discover the bridge on a LAN, sync T3-backed projects and tasks, start or continue T3 Code threads from the phone, show summaries and diffs, undo the latest T3 turn, and run eligible iOS projects on a connected iPhone through Xcode command-line tools.
