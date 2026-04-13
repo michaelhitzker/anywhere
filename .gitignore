@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Monorepo / nested repos
+apps/desktop-ui/anywhere-bridge/.git/
+
+# Node / web workspaces
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local Anywhere runtime state
+.anywhere/
+
+# Xcode / Swift
+DerivedData/
+.build/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint

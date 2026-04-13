@@ -1,0 +1,24 @@
+{
+  "name": "anywhere",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first open source companion for running T3 Code from your phone.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node --import tsx apps/desktop-agent-service/src/index.ts",
+    "start": "node --import tsx apps/desktop-agent-service/src/index.ts",
+    "test": "node --import tsx --test apps/desktop-agent-service/test/*.test.ts",
+    "typecheck": "tsc -p apps/desktop-agent-service/tsconfig.json"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
